@@ -151,10 +151,10 @@ box/themes/default/assets/css/style.min.css
 
 src/vendor
 
-
 data/*
 !data/.gitkeep
 
+/src/node_modules
 
 
 

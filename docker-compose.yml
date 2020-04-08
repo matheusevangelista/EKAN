@@ -41,6 +41,20 @@ services:
     depends_on:
       - elasticsearch
 
+  app:
+    volumes:
+      - type: bind
+        source: ./src
+        target: /home/node/app
+    build:
+      context: ./docker
+      dockerfile: app-node.Dockerfile
+    container_name: node-server
+    networks:
+      - es_network
+    ports:
+      - 80:3000
+
 
 networks:
   es_network:
