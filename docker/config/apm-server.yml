@@ -1,3 +1,10 @@
 apm-server:
   host: "0.0.0.0:8200"
   secret_token: "ufbBh}mpKaQbYwd}RsHwsPMS;yTD0Q:u-~lyCAZ99Q(kCz@7oKLvPX_u3W"
+  rum:
+    enabled: true
+
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  username: "elastic"
+  password: "teste*123"
