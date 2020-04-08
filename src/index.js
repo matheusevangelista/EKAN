@@ -7,7 +7,7 @@ const apm = require('elastic-apm-node').start({
   serviceName: 'node-app',
 
   // Use if APM Server requires a token
-  secretToken: '',
+  secretToken: 'ufbBh}mpKaQbYwd}RsHwsPMS;yTD0Q:u-~lyCAZ99Q(kCz@7oKLvPX_u3W',
 
   // Set custom APM Server URL (default: http://localhost:8200)
   serverUrl: 'http://apm-server:8200',
