@@ -2,7 +2,7 @@ heartbeat.monitors:
   - type: http
     schedule: '@every 60s'
     urls:
-      - https://google.com.br
+      - https://www.google.com.br
 
     check.request:
       method: GET
