@@ -1,0 +1,20 @@
+heartbeat.monitors:
+  - type: http
+    schedule: '@every 60s'
+    urls:
+      - https://google.com
+
+    check.request:
+      method: GET
+      headers:
+          'Content-Type': 'application/json'
+    check.response:
+        status: 200
+
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  username: "elastic"
+  password: "teste*123"
+
+setup.kibana:
+  host: "kibana:5601"

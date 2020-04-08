@@ -45,6 +45,16 @@ services:
     depends_on:
       - elasticsearch
 
+  heartbeat:
+    build:
+      context: "./docker"
+      dockerfile: "heartbeat.Dockerfile"
+    networks:
+      - es_network
+    depends_on:
+      - elasticsearch
+    restart: always
+
   app:
     volumes:
       - type: bind

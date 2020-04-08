@@ -8,6 +8,10 @@ https://www.elastic.co/guide/en/apm/server/current/running-on-docker.html
 
 https://www.elastic.co/guide/en/apm/agent/nodejs/current/set-up.html
 
+https://www.elastic.co/guide/en/beats/heartbeat/7.6/running-on-docker.html
+
 https://www.youtube.com/watch?v=CqLB-tBYB2Q
 
 http://codingfundas.com/setting-up-elasticsearch-6-8-with-kibana-and-x-pack-security-enabled/index.html
+
+https://medium.com/@fatmali/set-up-uptime-monitoring-with-kibana-heartbeat-and-slack-part-1-fa157d35071e
