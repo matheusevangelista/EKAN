@@ -31,10 +31,6 @@ services:
       - elasticsearch
 
   apm-server:
-    volumes:
-      - type: bind
-        source: ./docker/config/apm-server.yml
-        target: /usr/share/apm-server/apm-server.yml
     build:
       context: "./docker"
       dockerfile: "apm-server.Dockerfile"

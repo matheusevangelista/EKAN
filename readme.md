@@ -15,3 +15,7 @@ https://www.youtube.com/watch?v=CqLB-tBYB2Q
 http://codingfundas.com/setting-up-elasticsearch-6-8-with-kibana-and-x-pack-security-enabled/index.html
 
 https://medium.com/@fatmali/set-up-uptime-monitoring-with-kibana-heartbeat-and-slack-part-1-fa157d35071e
+
+
+## APM SERVER CONFIG FILE - Exemplo
+https://github.com/elastic/apm-server/blob/master/apm-server.yml
