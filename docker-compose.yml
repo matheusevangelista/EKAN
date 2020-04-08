@@ -16,6 +16,10 @@ services:
         - 9300:9300
 
   kibana:
+    volumes:
+      - type: bind
+        source: ./docker/config/kibana.yml
+        target: /usr/share/kibana/config/kibana.yml
     build:
       context: "./docker"
       dockerfile: "kibana.Dockerfile"
@@ -29,7 +33,7 @@ services:
   apm-server:
     volumes:
       - type: bind
-        source: ./apm-server.docker.yml
+        source: ./docker/config/apm-server.yml
         target: /usr/share/apm-server/apm-server.yml
     build:
       context: "./docker"
